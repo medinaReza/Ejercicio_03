@@ -12,7 +12,7 @@ class TaxCalculatorTest {
     @Test
     void shouldCalculateIvaWhenPriceIsGreaterThanZero() {
         double valorProducto = 100.0;
-        TaxCalculator calculator = new TaxCalculator(16.0);
+        TaxCalculator calculator = new TaxCalculator(IVA);
 
         double ivaCalculado = calculator.calculateIva(valorProducto);
 
